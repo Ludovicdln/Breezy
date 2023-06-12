@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+		<EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+		<LangVersion>11</LangVersion>
+    </PropertyGroup>
+	
+	<PropertyGroup>
+		<PackageVersion>2.0.0</PackageVersion>
+		<Authors>Ludovicdln</Authors>
+		<PackageId>Breezy.SourceGenerator</PackageId>
+		<PackageTags>MicroORM SourceGenerator</PackageTags>
+		<Description>Breezy is a lightweight Object-Relational Mapping (ORM) library for mapping objects using Source Generator in C#.It provides seamless asynchronous operations for enhanced performance.</Description>
+		<RepositoryUrl>https://github.com/Ludovicdln/Breezy</RepositoryUrl>
+		<PackageIcon>breezy_icon.png</PackageIcon>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Meziantou.Analyzer" Version="2.0.25">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.6.0-1.final" PrivateAssets="all" />
+	  <None Include="C:\Users\Ludovic\Desktop\Breezy\breezy_icon.png" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+</Project>
