@@ -15,7 +15,7 @@ To install Breezy, simply add the package reference to your project using NuGet 
 
 ```xml
 <ItemGroup>
-<PackageReference Include="Breezy" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+<PackageReference Include="Breezy.SourceGenerator" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
 </ItemGroup>
 ````
 
