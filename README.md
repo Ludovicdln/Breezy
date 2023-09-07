@@ -1,6 +1,6 @@
 <div style="text-align:center"><img src="https://zupimages.net/up/23/23/na2b.png" width="900" height="300"></div>
 
-[![NuGet Badge](https://buildstats.info/nuget/Breezy.SourceGenerator/)](https://www.nuget.org/packages/Breezy.SourceGenerator//1.0.1)
+[![NuGet Badge](https://buildstats.info/nuget/Breezy.SourceGenerator/)](https://www.nuget.org/packages/Breezy.SourceGenerator//1.0.2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -15,7 +15,7 @@ To install Breezy, simply add the package reference to your project using NuGet 
 
 ```xml
 <ItemGroup>
-<PackageReference Include="Breezy.SourceGenerator" Version="1.0.1" />
+<PackageReference Include="Breezy.SourceGenerator" Version="1.0.2" />
 </ItemGroup>
 ````
 
