@@ -9,7 +9,7 @@
     </PropertyGroup>
 	
 	<PropertyGroup>
-		<PackageVersion>2.0.0</PackageVersion>
+		<PackageVersion>1.0.1</PackageVersion>
 		<Authors>Ludovicdln</Authors>
 		<PackageId>Breezy.SourceGenerator</PackageId>
 		<PackageTags>MicroORM SourceGenerator</PackageTags>
@@ -30,6 +30,7 @@
       </PackageReference>
       <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.6.0-1.final" PrivateAssets="all" />
 	  <None Include="C:\Users\Ludovic\Desktop\Breezy\breezy_icon.png" Pack="true" PackagePath="\"/>
+	  <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
     </ItemGroup>
 
 </Project>
