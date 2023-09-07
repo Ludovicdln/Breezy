@@ -131,6 +131,7 @@ public class DbTemplateBuilder : IDbTemplateBuilder
         using System.Data.Common;
         using System.Threading.Tasks;
         using System.Collections.Generic;
+        using Breezy; 
         {string.Join("\n", _classDbDefinition.Dependencies)}
 
         namespace {_classDbDefinition.Namespace}
